@@ -17,14 +17,18 @@ Explanation: The 7 distinct subsequences are "a", "b", "c", "ab", "ac", "bc", an
 ```
 
 Example 2:
-
+```
 Input: "aba"
 Output: 6 Explanation: The 6 distinct subsequences are "a", "b", "ab", "ba", "aa" and "aba".
-Example 3:
+```
 
+Example 3:
+```
 Input: "aaa"
 Output: 3 Explanation: The 3 distinct subsequences are "a", "aa" and "aaa".
+```
+
 Note:
 
-S contains only lowercase letters.
-1 <= S.length <= 2000
+1. S contains only lowercase letters.
+2. 1 <= S.length <= 2000
