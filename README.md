@@ -35,19 +35,16 @@ Note:
 
 Solution:
 
-1. 
+Use the state transition equation of dynamic programming
 ```
-class Solution {
-public:
-    int distinctSubseqII(string S) {
-        int M = 1e9 + 7;
-        vector<int> dp(26);
-        for (char c : S) {
-            dp[c - 'a'] = accumulate(dp.begin(), dp.end(), 1L) % M;
-        }
-        return accumulate(dp.begin(), dp.end(), 0L) % M;
+int distinctSubseqII(string S) {
+    int M = 1e9 + 7;
+    vector<int> dp(26); //there are 26 different lowercase charactors
+    for (char c : S) {
+        dp[c - 'a'] = accumulate(dp.begin(), dp.end(), 1L) % M; //Computes the sum of the given value init and the elements in the range [first, last). 
     }
-};
+    return accumulate(dp.begin(), dp.end(), 0L) % M;
+}
 ```
 
 ## Machine Learning
