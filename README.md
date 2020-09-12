@@ -70,6 +70,7 @@ Note:
 4. All points are distinct.
 
 Solution:
+Use the diagnal vertexes to determine the rectangle
 ```
     int minAreaRect(vector<vector<int>>& points) {
         int res = INT_MAX, n = points.size();
@@ -86,5 +87,84 @@ Solution:
             }
         }
         return res == INT_MAX ? 0 : res;
+    }
+```
+
+### Range Sum of BST
+
+Given the `root` node of a binary search tree, return the sum of values of all nodes with value between `L` and `R` (inclusive).
+The binary search tree is guaranteed to have unique values.
+
+Example 1:
+```
+Input: root = [10,5,15,3,7,null,18], L = 7, R = 15
+Output: 32
+```
+Example 2:
+```
+Input: root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
+Output: 23
+```
+Note:
+
+1. The number of nodes in the tree is at most `10000`.
+2. The final answer is guaranteed to be less than `2^31`.
+
+Solution:
+```
+    int rangeSumBST(TreeNode* root, int L, int R) {
+        if (!root) return 0;
+        if (root->val < L) return rangeSumBST(root->right, L, R);
+        if (root->val > R) return rangeSumBST(root->left, L, R);
+        return root->val + rangeSumBST(root->left, L, R) + rangeSumBST(root->right, L, R);
+    }
+ ```
+ 
+ ### Reorder Data in Log Files
+ 
+ You have an array of `logs`.  Each log is a space delimited string of words.
+For each log, the first word in each log is an alphanumeric identifier.  Then, either:
+
+- Each word after the identifier will consist only of lowercase letters, or;
+- Each word after the identifier will consist only of digits.
+We will call these two varieties of logs letter-logs and digit-logs.  It is guaranteed that each log has at least one word after its identifier.
+
+Reorder the logs so that all of the letter-logs come before any digit-log.  The letter-logs are ordered lexicographically ignoring identifier, with the identifier used in case of ties.  The digit-logs should be put in their original order.
+
+Return the final order of the logs.
+
+Example 1:
+```
+Input: logs = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
+Output: ["let1 art can","let3 art zero","let2 own kit dig","dig1 8 1 5 1","dig2 3 6"]
+```
+Constraints:
+
+1. `0 <= logs.length <= 100`
+2. `3 <= logs[i].length <= 100`
+3. `logs[i]` is guaranteed to have an identifier, and a word after the identifier.
+
+Solution:
+
+```
+    vector<string> reorderLogFiles(vector<string>& logs) {
+        vector<string> res, digitLogs;
+        vector<vector<string>> data;
+        for (string log : logs) {
+            auto pos = log.find(" ");
+            if (log[pos + 1] >= '0' && log[pos + 1] <= '9') {
+                digitLogs.push_back(log);
+                continue;
+            }
+            data.push_back({log.substr(0, pos), log.substr(pos + 1)});
+        }
+        sort(data.begin(), data.end(), [](vector<string>& a, vector<string>& b) {
+            return a[1] < b[1] || (a[1] == b[1] && a[0] < b[0]);
+        });
+        for (auto &a : data) {
+            res.push_back(a[0] + " " + a[1]);
+        }
+        for (string log : digitLogs) res.push_back(log);
+        return res;
     }
 ```
