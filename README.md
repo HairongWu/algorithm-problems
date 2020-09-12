@@ -3,7 +3,7 @@ A collection of algorithmic problems
 
 ## LeetCode
 
-- Distinct Subsequences II
+### Distinct Subsequences II
 
 Given a string S, count the number of distinct, non-empty subsequences of S .
 
