@@ -30,5 +30,24 @@ Output: 3 Explanation: The 3 distinct subsequences are "a", "aa" and "aaa".
 
 Note:
 
-1. S contains only lowercase letters.
-2. 1 <= S.length <= 2000
+1. `S` contains only lowercase letters.
+2. `1 <= S.length <= 2000`
+
+Solution:
+
+1. 
+```
+class Solution {
+public:
+    int distinctSubseqII(string S) {
+        int M = 1e9 + 7;
+        vector<int> dp(26);
+        for (char c : S) {
+            dp[c - 'a'] = accumulate(dp.begin(), dp.end(), 1L) % M;
+        }
+        return accumulate(dp.begin(), dp.end(), 0L) % M;
+    }
+};
+```
+
+## Machine Learning
