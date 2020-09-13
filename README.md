@@ -172,31 +172,33 @@ Solution:
 ### Stamping The Sequence
 
 You want to form a `target` string of lowercase letters.
-At the beginning, your sequence is target.length '?' marks.  You also have a stamp of lowercase letters.
+At the beginning, your sequence is `target.length` `'?'` marks.  You also have a `stamp` of lowercase letters.
 
-On each turn, you may place the stamp over the sequence, and replace every letter in the sequence with the corresponding letter from the stamp.  You can make up to 10 * target.length turns.
+On each turn, you may place the stamp over the sequence, and replace every letter in the sequence with the corresponding letter from the stamp.  You can make up to `10 * target.length` turns.
 
-For example, if the initial sequence is "?????", and your stamp is "abc",  then you may make "abc??", "?abc?", "??abc" in the first turn.  (Note that the stamp must be fully contained in the boundaries of the sequence in order to stamp.)
+For example, if the initial sequence is "?????", and your stamp is `"abc"`,  then you may make "abc??", "?abc?", "??abc" in the first turn.  (Note that the stamp must be fully contained in the boundaries of the sequence in order to stamp.)
 
 If the sequence is possible to stamp, then return an array of the index of the left-most letter being stamped at each turn.  If the sequence is not possible to stamp, return an empty array.
 
-For example, if the sequence is "ababc", and the stamp is "abc", then we could return the answer [0, 2], corresponding to the moves "?????" -> "abc??" -> "ababc".
+For example, if the sequence is "ababc", and the stamp is `"abc"`, then we could return the answer `[0, 2]`, corresponding to the moves "?????" -> "abc??" -> "ababc".
 
-Also, if the sequence is possible to stamp, it is guaranteed it is possible to stamp within 10 * target.length moves.  Any answers specifying more than this number of moves will not be accepted.
+Also, if the sequence is possible to stamp, it is guaranteed it is possible to stamp within `10 * target.length` moves.  Any answers specifying more than this number of moves will not be accepted.
 
 Example 1:
-
+```
 Input: stamp = "abc", target = "ababc"
 Output: [0,2]
 ([1,0,2] would also be accepted as an answer, as well as some other answers.)
+```
 Example 2:
-
+```
 Input: stamp = "abca", target = "aabcaca"
 Output: [3,0,1]
+```
 Note:
 
-1 <= stamp.length <= target.length <= 1000
-stamp and target only contain lowercase letters.
+1. `1 <= stamp.length <= target.length <= 1000`
+2. `stamp` and `target` only contain lowercase letters.
 
 Solution:
 
@@ -225,3 +227,32 @@ Solution:
         return total == target.size() ? res : vector<int>();
     }
 ```
+
+### Knight Dialer
+
+A chess knight can move as indicated in the chess diagram below:
+![knight](knight.png "knight") ![keypad](keypad.png "keypad")
+
+This time, we place our chess knight on any numbered key of a phone pad (indicated above), and the knight makes N-1 hops.  Each hop must be from one key to another numbered key.
+
+Each time it lands on a key (including the initial placement of the knight), it presses the number of that key, pressing N digits total.
+
+How many distinct numbers can you dial in this manner?
+
+Since the answer may be large, output the answer modulo 10^9 + 7.
+
+Example 1:
+
+Input: 1
+Output: 10
+Example 2:
+
+Input: 2
+Output: 20
+Example 3:
+
+Input: 3
+Output: 46
+Note:
+
+1 <= N <= 5000
