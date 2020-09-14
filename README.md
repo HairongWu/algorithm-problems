@@ -981,7 +981,7 @@ A collection of algorithmic problems
 - [34 NP-Completeness](./CLRS/Chap34/)
 - [35 Approximation Algorithms](./CLRS/Chap35/)
 
-## 周志华老师的《机器学习》（西瓜书）
+## 周志华《机器学习》（西瓜书）
 - 第1章 [绪论](./pumpkin-book/chapter1/chapter1.md)
 - 第2章 [模型评估与选择](./pumpkin-book/chapter2/chapter2.md)
 - 第3章 [线性模型](./pumpkin-book/chapter3/chapter3.md)
@@ -1000,6 +1000,6 @@ A collection of algorithmic problems
 - 第16章 [强化学习](./pumpkin-book/chapter16/chapter16.md)
 
 # Reference
-- (https://www.cnblogs.com/grandyang/p/4606334.html)
-- (https://github.com/datawhalechina/pumpkin-book)
-- (https://walkccc.github.io/CLRS/)
+- https://www.cnblogs.com/grandyang/p/4606334.html
+- https://github.com/datawhalechina/pumpkin-book
+- https://walkccc.github.io/CLRS/
