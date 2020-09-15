@@ -943,7 +943,7 @@ A collection of algorithmic problems
 |2|[Add Two Numbers](https://github.com/grandyang/LeetCode-All-In-One/issues/2)|21.10%|Medium|
 |1|[Two Sum](https://github.com/grandyang/LeetCode-All-In-One/issues/1)|17.70%|Medium|
 
-## Solutions to **Introduction to Algorithms** _Third Edition_
+## Abstracts and Solutions to **Introduction to Algorithms** _Third Edition_
 
 - [1 The Role of Algorithms in Computing](./CLRS/Chap01/)
 - [2 Getting Started](./CLRS/Chap02/)
@@ -981,25 +981,6 @@ A collection of algorithmic problems
 - [34 NP-Completeness](./CLRS/Chap34/)
 - [35 Approximation Algorithms](./CLRS/Chap35/)
 
-## 周志华《机器学习》（西瓜书）
-- 第1章 [绪论](./pumpkin-book/chapter1/chapter1.md)
-- 第2章 [模型评估与选择](./pumpkin-book/chapter2/chapter2.md)
-- 第3章 [线性模型](./pumpkin-book/chapter3/chapter3.md)
-- 第4章 [决策树](./pumpkin-book/chapter4/chapter4.md)
-- 第5章 [神经网络](./pumpkin-book/chapter5/chapter5.md)
-- 第6章 [支持向量机](./pumpkin-book/chapter6/chapter6.md)
-- 第7章 [贝叶斯分类器](./pumpkin-book/chapter7/chapter7.md)
-- 第8章 [集成学习](./pumpkin-book/chapter8/chapter8.md)
-- 第9章 [聚类](./pumpkin-book/chapter9/chapter9.md)
-- 第10章 [降维与度量学习](./pumpkin-book/chapter10/chapter10.md)
-- 第11章 [特征选择与稀疏学习](./pumpkin-book/chapter11/chapter11.md)
-- 第12章 [计算学习理论](./pumpkin-book/chapter12/chapter12.md)
-- 第13章 [半监督学习](./pumpkin-book/chapter13/chapter13.md)
-- 第14章 [概率图模型](./pumpkin-book/chapter14/chapter14.md)
-- 第15章 [规则学习](./pumpkin-book/chapter15/chapter15.md)
-- 第16章 [强化学习](./pumpkin-book/chapter16/chapter16.md)
-
 # Reference
 - https://www.cnblogs.com/grandyang/p/4606334.html
-- https://github.com/datawhalechina/pumpkin-book
 - https://walkccc.github.io/CLRS/
