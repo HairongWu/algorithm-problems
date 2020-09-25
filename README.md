@@ -26,7 +26,7 @@ A collection of algorithmic problems
 |922|[Sort Array By Parity II](./leetcode/922.md)|68.30%|Easy|
 |921|[Minimum Add to Make Parentheses Valid](./leetcode/921.md)|72.30%|Medium|
 |920|[Number of Music Playlists](./leetcode/920.md)|45.70%|Hard|
-|919|[Complete Binary Tree Inserter](https://github.com/grandyang/LeetCode-All-In-One/issues/919)|55.70%|Medium|
+|919|[Complete Binary Tree Inserter](./leetcode/919.md)|55.70%|Medium|
 |918|[Maximum Sum Circular Subarray](https://github.com/grandyang/LeetCode-All-In-One/issues/918)|33.20%|Medium|
 |917|[Reverse Only Letters](https://github.com/grandyang/LeetCode-All-In-One/issues/917)|56.30%|Easy|
 |916|[Word Subsets](https://github.com/grandyang/LeetCode-All-In-One/issues/916)|45.90%|Medium|
@@ -892,7 +892,7 @@ A collection of algorithmic problems
 |53|[Maximum Subarray](https://github.com/grandyang/LeetCode-All-In-One/issues/53)|34.50%|Medium|
 |52|[N-Queens II](https://github.com/grandyang/LeetCode-All-In-One/issues/52)|35.80%|Hard|
 |51|[N-Queens](https://github.com/grandyang/LeetCode-All-In-One/issues/51)|26.50%|Hard|
-|50|"Pow(x| n)"|26.70%|
+|50|"Pow(x| n)"|26.70%||
 |49|[Anagrams](https://github.com/grandyang/LeetCode-All-In-One/issues/49)|24.30%|Medium|
 |48|[Rotate Image](https://github.com/grandyang/LeetCode-All-In-One/issues/48)|31.90%|Medium|
 |47|[Permutations II](https://github.com/grandyang/LeetCode-All-In-One/issues/47)|25.80%|Hard|
