@@ -27,11 +27,11 @@ A collection of algorithmic problems
 |921|[Minimum Add to Make Parentheses Valid](./leetcode/921.md)|72.30%|Medium|
 |920|[Number of Music Playlists](./leetcode/920.md)|45.70%|Hard|
 |919|[Complete Binary Tree Inserter](./leetcode/919.md)|55.70%|Medium|
-|918|[Maximum Sum Circular Subarray](https://github.com/grandyang/LeetCode-All-In-One/issues/918)|33.20%|Medium|
-|917|[Reverse Only Letters](https://github.com/grandyang/LeetCode-All-In-One/issues/917)|56.30%|Easy|
-|916|[Word Subsets](https://github.com/grandyang/LeetCode-All-In-One/issues/916)|45.90%|Medium|
-|915|[Partition Array into Disjoint Intervals](https://github.com/grandyang/LeetCode-All-In-One/issues/915)|43.90%|Medium|
-|914|[X of a Kind in a Deck of Cards](https://github.com/grandyang/LeetCode-All-In-One/issues/914)|34.00%|Easy|
+|918|[Maximum Sum Circular Subarray](./leetcode/918.md)|33.20%|Medium|
+|917|[Reverse Only Letters](./leetcode/917.md)|56.30%|Easy|
+|916|[Word Subsets](./leetcode/916.md)|45.90%|Medium|
+|915|[Partition Array into Disjoint Intervals](./leetcode/915.md)|43.90%|Medium|
+|914|[X of a Kind in a Deck of Cards](./leetcode/914.md)|34.00%|Easy|
 |913|[Cat and Mouse](https://github.com/grandyang/LeetCode-All-In-One/issues/913)|29.90%|Hard|
 |912|[Sort an Array](https://github.com/grandyang/LeetCode-All-In-One/issues/912)|62.90%|Medium|
 |911|[Online Election](https://github.com/grandyang/LeetCode-All-In-One/issues/911)|48.30%|Medium|
