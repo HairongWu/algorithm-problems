@@ -873,7 +873,7 @@ A collection of algorithmic problems
 |72|[Edit Distance](https://github.com/grandyang/LeetCode-All-In-One/issues/72)|26.20%|Hard|
 |71|[Simplify Path](https://github.com/grandyang/LeetCode-All-In-One/issues/71)|20.00%|Medium|
 |70|[Climbing Stairs](https://github.com/grandyang/LeetCode-All-In-One/issues/70)|34.40%|Easy|
-|69|[Sqrt(x)](https://github.com/grandyang/LeetCode-All-In-One/issues/69)|23.10%|Medium|
+|69|[sqrt(x)](./leetcode/69.md)|23.10%|Medium|
 |68|[Text Justification](https://github.com/grandyang/LeetCode-All-In-One/issues/68)|14.60%|Hard|
 |67|[Add Binary](https://github.com/grandyang/LeetCode-All-In-One/issues/67)|24.70%|Easy|
 |66|[Plus One](https://github.com/grandyang/LeetCode-All-In-One/issues/66)|30.40%|Easy|
@@ -892,7 +892,7 @@ A collection of algorithmic problems
 |53|[Maximum Subarray](https://github.com/grandyang/LeetCode-All-In-One/issues/53)|34.50%|Medium|
 |52|[N-Queens II](https://github.com/grandyang/LeetCode-All-In-One/issues/52)|35.80%|Hard|
 |51|[N-Queens](https://github.com/grandyang/LeetCode-All-In-One/issues/51)|26.50%|Hard|
-|50|"Pow(x| n)"|26.70%||
+|50|[pow(x, n)](./leetcode/50.md)|26.70%||
 |49|[Anagrams](https://github.com/grandyang/LeetCode-All-In-One/issues/49)|24.30%|Medium|
 |48|[Rotate Image](https://github.com/grandyang/LeetCode-All-In-One/issues/48)|31.90%|Medium|
 |47|[Permutations II](https://github.com/grandyang/LeetCode-All-In-One/issues/47)|25.80%|Hard|
@@ -934,7 +934,7 @@ A collection of algorithmic problems
 |11|[Container With Most Water](https://github.com/grandyang/LeetCode-All-In-One/issues/11)|32.00%|Medium|
 |10|[Regular Expression Matching](https://github.com/grandyang/LeetCode-All-In-One/issues/10)|20.70%|Hard|
 |9|[Palindrome Number](https://github.com/grandyang/LeetCode-All-In-One/issues/9)|28.30%|Easy|
-|8|[String to Integer (atoi)](https://github.com/grandyang/LeetCode-All-In-One/issues/8)|13.00%|Easy|
+|8|[String to Integer (atoi)](./leetcode/8.md)|13.00%|Easy|
 |7|[Reverse Integer](https://github.com/grandyang/LeetCode-All-In-One/issues/7)|25.10%|Easy|
 |6|[ZigZag Conversion](https://github.com/grandyang/LeetCode-All-In-One/issues/6)|21.80%|Easy|
 |5|[Longest Palindromic Substring](https://github.com/grandyang/LeetCode-All-In-One/issues/5)|20.70%|Medium|
