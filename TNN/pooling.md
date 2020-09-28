@@ -254,66 +254,75 @@ void AvgPoolingINT8(const int8_t* src, long iw, long ih, int8_t* dst, long ow, l
         }
     }
 }
-Status arm_neon_pooling(const std::vector<Blob *> &inputs, const std::vector<Blob *> &outputs, std::vector<int> dims_input, std::vector<int> dims_output, int data_type, int pool_type) {
+Status arm_neon_pooling_float(const float *inputs, const float *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
     auto oc_4       = UP_DIV(dims_output[1], 4);
     auto batch      = dims_output[0];
 
     // run
-    if (data_type == DATA_TYPE_FLOAT) {
         auto input_plane_stride  = 4 * k_param_->iw * k_param_->ih;
         auto output_plane_stride = 4 * k_param_->ow * k_param_->oh;
 
         for (int plane = (int)0; plane < batch * oc_4; plane++) {
             if (pool_type == 0) {
-                MaxPooling(reinterpret_cast<float *>(input_ptr) + plane * input_plane_stride, k_param_->iw,
-                           k_param_->ih, reinterpret_cast<float *>(output_ptr) + output_plane_stride * plane,
+                MaxPooling(inputs + plane * input_plane_stride, k_param_->iw,
+                           k_param_->ih, outputs + output_plane_stride * plane,
                            k_param_->ow, k_param_->oh, param->kernels[0], param->kernels[1], param->strides[0],
                            param->strides[1], param->pads[0], param->pads[2], corner_l_, corner_r_, corner_t_,
                            corner_b_);
             } else {
-                AvgPooling(reinterpret_cast<float *>(input_ptr) + plane * input_plane_stride, k_param_->iw,
-                           k_param_->ih, reinterpret_cast<float *>(output_ptr) + output_plane_stride * plane,
+                AvgPooling(inputs + plane * input_plane_stride, k_param_->iw,
+                           k_param_->ih, outputs + output_plane_stride * plane,
                            k_param_->ow, k_param_->oh, param->kernels[0], param->kernels[1], param->strides[0],
                            param->strides[1], param->pads[0], param->pads[2]);
             }
         }
-    } else if (data_type == DATA_TYPE_BFP16) {
+
+    return TNN_OK;
+}
+Status arm_neon_pooling_bfp16(const bfp16_t *inputs, const bfp16_t *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
+    auto oc_4       = UP_DIV(dims_output[1], 4);
+    auto batch      = dims_output[0];
+
         auto input_plane_stride  = 4 * k_param_->iw * k_param_->ih;
         auto output_plane_stride = 4 * k_param_->ow * k_param_->oh;
 
         for (int plane = (int)0; plane < batch * oc_4; plane++) {
             if (pool_type == 0) {
-                MaxPooling(reinterpret_cast<bfp16_t *>(input_ptr) + plane * input_plane_stride, k_param_->iw,
-                           k_param_->ih, reinterpret_cast<bfp16_t *>(output_ptr) + output_plane_stride * plane,
+                MaxPooling(inputs + plane * input_plane_stride, k_param_->iw,
+                           k_param_->ih, outputs + output_plane_stride * plane,
                            k_param_->ow, k_param_->oh, param->kernels[0], param->kernels[1], param->strides[0],
                            param->strides[1], param->pads[0], param->pads[2], corner_l_, corner_r_, corner_t_,
                            corner_b_);
             } else {
-                AvgPooling(reinterpret_cast<bfp16_t *>(input_ptr) + plane * input_plane_stride, k_param_->iw,
-                           k_param_->ih, reinterpret_cast<bfp16_t *>(output_ptr) + output_plane_stride * plane,
+                AvgPooling(inputs + plane * input_plane_stride, k_param_->iw,
+                           k_param_->ih, outputs + output_plane_stride * plane,
                            k_param_->ow, k_param_->oh, param->kernels[0], param->kernels[1], param->strides[0],
                            param->strides[1], param->pads[0], param->pads[2]);
             }
         }
-    } else {
+
+    return TNN_OK;
+}
+Status arm_neon_pooling_int8(const int8_t *inputs, const int8_t *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
+    auto oc_4       = UP_DIV(dims_output[1], 4);
+    auto batch      = dims_output[0];
+
         // INT8
         for (int n = 0; n < batch; n++) {
             auto input_batch_stride  = k_param_->iw * k_param_->ih * oc_4 * 4;
             auto output_batch_stride = k_param_->ow * k_param_->oh * oc_4 * 4;
             if (pool_type == 0) {
-                MaxPoolingINT8(reinterpret_cast<int8_t *>(input_ptr) + n * input_batch_stride, k_param_->iw,
-                               k_param_->ih, reinterpret_cast<int8_t *>(output_ptr) + n * output_batch_stride,
+                MaxPoolingINT8(inputs + n * input_batch_stride, k_param_->iw,
+                               k_param_->ih, outputs + n * output_batch_stride,
                                k_param_->ow, k_param_->oh, oc_4 * 4, param->kernels[0], param->kernels[1],
                                param->strides[0], param->strides[1], param->pads[0], param->pads[2]);
             } else {
-                AvgPoolingINT8(reinterpret_cast<int8_t *>(input_ptr) + n * input_batch_stride, k_param_->iw,
-                               k_param_->ih, reinterpret_cast<int8_t *>(output_ptr) + n * output_batch_stride,
+                AvgPoolingINT8(inputs + n * input_batch_stride, k_param_->iw,
+                               k_param_->ih, outputs + n * output_batch_stride,
                                k_param_->ow, k_param_->oh, oc_4 * 4, param->kernels[0], param->kernels[1],
                                param->strides[0], param->strides[1], param->pads[0], param->pads[2]);
             }
         }
-    }
-
     return TNN_OK;
 }
 ```

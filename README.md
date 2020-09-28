@@ -1,6 +1,47 @@
 # algorithm-problems
 A collection of algorithmic problems
 
+## Abstracts and Solutions to **Introduction to Algorithms** _Third Edition_
+
+- [1 The Role of Algorithms in Computing](./CLRS/Chap01/)
+- [2 Getting Started](./CLRS/Chap02/)
+- [3 Growth of Functions](./CLRS/Chap03/)
+- [4 Divide-and-Conquer](./CLRS/Chap04/)
+- [5 Probabilistic Analysis and Randomized Algorithms](./CLRS/Chap05/)
+- [6 Heapsort](./CLRS/Chap06/)
+- [7 Quicksort](./CLRS/Chap07/)
+- [8 Sorting in Linear Time](./CLRS/Chap08/)
+- [9 Medians and Order Statistics](./CLRS/Chap09/)
+- [10 Elementary Data Structures](./CLRS/Chap10/)
+- [11 Hash Tables](./CLRS/Chap11/)
+- [12 Binary Search Trees](./CLRS/Chap12/)
+- [13 Red-Black Trees](./CLRS/Chap13/)
+- [14 Augmenting Data Structures](./CLRS/Chap14/)
+- [15 Dynamic Programming](./CLRS/Chap15/)
+- [16 Greedy Algorithms](./CLRS/Chap16/)
+- [17 Amortized Analysis](./CLRS/Chap17/)
+- [18 B-Trees](./CLRS/Chap18/)
+- [19 Fibonacci Heaps](./CLRS/Chap19/)
+- [20 van Emde Boas Trees](./CLRS/Chap20/)
+- [21 Data Structures for Disjoint Sets](./CLRS/Chap21/)
+- [22 Elementary Graph Algorithms](./CLRS/Chap22/)
+- [23 Minimum Spanning Trees](./CLRS/Chap23/)
+- [24 Single-Source Shortest Paths](./CLRS/Chap24/)
+- [25 All-Pairs Shortest Paths](./CLRS/Chap25/)
+- [26 Maximum Flow](./CLRS/Chap26/)
+- [27 Multithreaded Algorithms](./CLRS/Chap27/)
+- [28 Matrix Operations](./CLRS/Chap28/)
+- [29 Linear Programming](./CLRS/Chap29/)
+- [30 Polynomials and the FFT](./CLRS/Chap30/)
+- [31 Number-Theoretic Algorithms](./CLRS/Chap31/)
+- [32 String Matching](./CLRS/Chap32/)
+- [33 Computational Geometry](./CLRS/Chap33/)
+- [34 NP-Completeness](./CLRS/Chap34/)
+- [35 Approximation Algorithms](./CLRS/Chap35/)
+
+## TNN
+
+
 ## LeetCode
 
 | # | Title | Solution | Difficulty |
@@ -943,44 +984,7 @@ A collection of algorithmic problems
 |2|[Add Two Numbers](https://github.com/grandyang/LeetCode-All-In-One/issues/2)|21.10%|Medium|
 |1|[Two Sum](https://github.com/grandyang/LeetCode-All-In-One/issues/1)|17.70%|Medium|
 
-## Abstracts and Solutions to **Introduction to Algorithms** _Third Edition_
-
-- [1 The Role of Algorithms in Computing](./CLRS/Chap01/)
-- [2 Getting Started](./CLRS/Chap02/)
-- [3 Growth of Functions](./CLRS/Chap03/)
-- [4 Divide-and-Conquer](./CLRS/Chap04/)
-- [5 Probabilistic Analysis and Randomized Algorithms](./CLRS/Chap05/)
-- [6 Heapsort](./CLRS/Chap06/)
-- [7 Quicksort](./CLRS/Chap07/)
-- [8 Sorting in Linear Time](./CLRS/Chap08/)
-- [9 Medians and Order Statistics](./CLRS/Chap09/)
-- [10 Elementary Data Structures](./CLRS/Chap10/)
-- [11 Hash Tables](./CLRS/Chap11/)
-- [12 Binary Search Trees](./CLRS/Chap12/)
-- [13 Red-Black Trees](./CLRS/Chap13/)
-- [14 Augmenting Data Structures](./CLRS/Chap14/)
-- [15 Dynamic Programming](./CLRS/Chap15/)
-- [16 Greedy Algorithms](./CLRS/Chap16/)
-- [17 Amortized Analysis](./CLRS/Chap17/)
-- [18 B-Trees](./CLRS/Chap18/)
-- [19 Fibonacci Heaps](./CLRS/Chap19/)
-- [20 van Emde Boas Trees](./CLRS/Chap20/)
-- [21 Data Structures for Disjoint Sets](./CLRS/Chap21/)
-- [22 Elementary Graph Algorithms](./CLRS/Chap22/)
-- [23 Minimum Spanning Trees](./CLRS/Chap23/)
-- [24 Single-Source Shortest Paths](./CLRS/Chap24/)
-- [25 All-Pairs Shortest Paths](./CLRS/Chap25/)
-- [26 Maximum Flow](./CLRS/Chap26/)
-- [27 Multithreaded Algorithms](./CLRS/Chap27/)
-- [28 Matrix Operations](./CLRS/Chap28/)
-- [29 Linear Programming](./CLRS/Chap29/)
-- [30 Polynomials and the FFT](./CLRS/Chap30/)
-- [31 Number-Theoretic Algorithms](./CLRS/Chap31/)
-- [32 String Matching](./CLRS/Chap32/)
-- [33 Computational Geometry](./CLRS/Chap33/)
-- [34 NP-Completeness](./CLRS/Chap34/)
-- [35 Approximation Algorithms](./CLRS/Chap35/)
-
 # Reference
 - https://www.cnblogs.com/grandyang/p/4606334.html
 - https://walkccc.github.io/CLRS/
+- https://github.com/Tencent/TNN
