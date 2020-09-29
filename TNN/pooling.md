@@ -254,7 +254,8 @@ void AvgPoolingINT8(const int8_t* src, long iw, long ih, int8_t* dst, long ow, l
         }
     }
 }
-Status arm_neon_pooling_float(const float *inputs, const float *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
+template <typename T>
+Status arm_neon_pooling(const T *inputs, const T *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
     auto oc_4       = UP_DIV(dims_output[1], 4);
     auto batch      = dims_output[0];
 
@@ -279,30 +280,7 @@ Status arm_neon_pooling_float(const float *inputs, const float *outputs, std::ve
 
     return TNN_OK;
 }
-Status arm_neon_pooling_bfp16(const bfp16_t *inputs, const bfp16_t *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
-    auto oc_4       = UP_DIV(dims_output[1], 4);
-    auto batch      = dims_output[0];
 
-        auto input_plane_stride  = 4 * k_param_->iw * k_param_->ih;
-        auto output_plane_stride = 4 * k_param_->ow * k_param_->oh;
-
-        for (int plane = (int)0; plane < batch * oc_4; plane++) {
-            if (pool_type == 0) {
-                MaxPooling(inputs + plane * input_plane_stride, k_param_->iw,
-                           k_param_->ih, outputs + output_plane_stride * plane,
-                           k_param_->ow, k_param_->oh, param->kernels[0], param->kernels[1], param->strides[0],
-                           param->strides[1], param->pads[0], param->pads[2], corner_l_, corner_r_, corner_t_,
-                           corner_b_);
-            } else {
-                AvgPooling(inputs + plane * input_plane_stride, k_param_->iw,
-                           k_param_->ih, outputs + output_plane_stride * plane,
-                           k_param_->ow, k_param_->oh, param->kernels[0], param->kernels[1], param->strides[0],
-                           param->strides[1], param->pads[0], param->pads[2]);
-            }
-        }
-
-    return TNN_OK;
-}
 Status arm_neon_pooling_int8(const int8_t *inputs, const int8_t *outputs, std::vector<int> dims_input, std::vector<int> dims_output, int pool_type) {
     auto oc_4       = UP_DIV(dims_output[1], 4);
     auto batch      = dims_output[0];

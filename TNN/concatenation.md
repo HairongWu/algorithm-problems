@@ -129,7 +129,7 @@ static int concat_common(T *output, const std::vector<T *> &inputs, int axis, st
     return 0;
 }
 template <typename T>
-Status arm_neon_concat_float(const std::vector<Blob *> &inputs, const std::vector<Blob *> &outputs, int axis, std::vector<int> dims_output, bool concat_c4) {
+Status arm_neon_concat(const T* inputs, const T* outputs, int axis, std::vector<int> dims_output, bool concat_c4) {
     switch (axis) {
         case 1:
             if (concat_c4) {
@@ -152,7 +152,7 @@ Status arm_neon_concat_float(const std::vector<Blob *> &inputs, const std::vecto
 
     return TNN_OK;
 }
-Status arm_neon_concat_int8(const std::vector<Blob *> &inputs, const std::vector<Blob *> &outputs, int axis) {
+Status arm_neon_concat_int8(const int8_t* inputs, const int8_t *outputs, int axis) {
 
     switch (axis) {
         case 1:

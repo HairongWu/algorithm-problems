@@ -280,7 +280,7 @@ void ConvCommonO4(T* dst, const T* src, const float* weight, long width, long sr
     }
 }
     template <typename T>
-    void PostExec(const std::vector<Blob *> &outputs) {
+    void PostExec(const T* outputs) {
         const int batch = outputs[0]->GetBlobDesc().dims[0];
         auto dst_origin = reinterpret_cast<T *>(GetBlobHandlePtr(outputs[0]->GetHandle()));
         if (post_func_) {

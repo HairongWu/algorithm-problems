@@ -46,7 +46,7 @@ A collection of algorithmic problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1207|[Unique Number of Occurrences](./leetcode/1207.md)|Easy|
+|1207|[Unique Number of Occurrences](./leetcode/1207.md)| |Easy|
 |1170|[Compare Strings by Frequency of the Smallest Character](./leetcode/1170.md) | |Easy|
 |1071|[Greatest Common Divisor of Strings](./leetcode/1071.md) | |Easy|
 |1030|[Matrix Cells in Distance Order](./leetcode/1030.md) | |Easy|
