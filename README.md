@@ -46,6 +46,37 @@ A collection of algorithmic problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1207|[Unique Number of Occurrences](./leetcode/1207.md)|Easy|
+|1170|[Compare Strings by Frequency of the Smallest Character](./leetcode/1170.md) | |Easy|
+|1071|[Greatest Common Divisor of Strings](./leetcode/1071.md) | |Easy|
+|1030|[Matrix Cells in Distance Order](./leetcode/1030.md) | |Easy|
+|1029|[Two City Scheduling](./leetcode/1029.md) | |Easy|
+|1028|[Recover a Tree From Preorder Traversal](./leetcode/1028.md) | |Hard|
+|1024|[Video Stitching](./leetcode/1024.md) | |Medium|
+|993|[Cousins in Binary Tree](./leetcode/993.md) | |Easy|
+|991|[Broken Calculator](./leetcode/991.md) | |Medium|
+|990|[Satisfiability of Equality Equations](./leetcode/990.md) | |Medium|
+|989|[Add to Array-Form of Integer](./leetcode/989.md) | |Easy|
+|988|[Smallest String Starting From Leaf](./leetcode/988.md) | |Medium|
+|987|[Vertical Order Traversal of a Binary Tree](./leetcode/987.md) | |Medium|
+|986|[Interval List Intersections](./leetcode/986.md) | |Medium|
+|985|[Sum of Even Numbers After Queries](./leetcode/985.md) | |Easy|
+|984|[String Without AAA or BBB](./leetcode/984.md) | |Easy|
+|983|[Minimum Cost For Tickets](./leetcode/983.md) | |Medium|
+|982|[Triples with Bitwise AND Equal To Zero](./leetcode/982.md) | |Hard|
+|981|[Time Based Key-Value Store](./leetcode/981.md) | |Medium|
+|980|[Unique Paths III](./leetcode/980.md) | |Hard|
+|979|[Distribute Coins in Binary Tree](./leetcode/979.md) | |Medium|
+|978|[Longest Turbulent Subarray](./leetcode/978.md) | |Medium|
+|977|[Squares of a Sorted Array](./leetcode/977.md) | |Easy|
+|976|[Largest Perimeter Triangle](./leetcode/976.md) | |Easy|
+|971|[Flip Binary Tree To Match Preorder Traversal](./leetcode/971.md) | |Medium|
+|969|[Pancake Sorting](./leetcode/969.md) | |Medium|
+|961|[N-Repeated element in size 2N Array](./leetcode/961.md) | |Easy|
+|958|[Check Completeness of a Binary Tree](./leetcode/958.md) | |Medium|
+|951|[Flip Equivalent Binary Trees](./leetcode/951.md) | |Medium|
+|950|[Reveal Cards In Increasing Order](./leetcode/950.md) | |Medium|
+|941|[Valid Mountain Array](./leetcode/941.md) | |Easy|
 |940|[Distinct Subsequences II](./leetcode/940.md)|41.50%|Hard|
 |939|[Minimum Area Rectangle](./leetcode/939.md)|52.00%|Medium|
 |938|[Range Sum of BST](./leetcode/938.md)|79.90%|Easy|
@@ -982,7 +1013,7 @@ A collection of algorithmic problems
 |4|[Median of Two Sorted Arrays](https://github.com/grandyang/LeetCode-All-In-One/issues/4)|17.40%|Hard|
 |3|[Longest Substring Without Repeating Characters](https://github.com/grandyang/LeetCode-All-In-One/issues/3)|20.60%|Medium|
 |2|[Add Two Numbers](https://github.com/grandyang/LeetCode-All-In-One/issues/2)|21.10%|Medium|
-|1|[Two Sum](https://github.com/grandyang/LeetCode-All-In-One/issues/1)|17.70%|Medium|
+|1|[Two Sum](./leetcode/1.md)|17.70%|Medium|
 
 # Reference
 - https://www.cnblogs.com/grandyang/p/4606334.html
