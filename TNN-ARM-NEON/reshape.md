@@ -1,5 +1,5 @@
 # Reshape
-
+The Reshape layer can be used to change the dimensions of its input, without changing its data.
 ```cpp
 
 //input format DATA_FORMAT_NC4HW4

@@ -15,8 +15,6 @@ $$f(x)=\max(0, x)$$
 - Unbounded.
 - Dying ReLU problem: ReLU neurons can sometimes be pushed into states in which they become inactive for essentially all inputs. 
 ```cpp
-
-
 //input & output data_format is NCHW
 void arm_neon_relu_int8(int8_t* dst, const int8_t* src, std::vector<int> dims) {
     long len = dims[0] * ROUND_UP(dims[1], 4) * dims[2] * dims[3];
@@ -33,20 +31,13 @@ void arm_neon_relu_int8(int8_t* dst, const int8_t* src, std::vector<int> dims) {
         dst[idx] = MAX(0, src[idx]);
     }
 }
-
-void arm_neon_relu_float(float* dst, const float* src, std::vector<int> dims) {
+template <typename T>
+void arm_neon_relu(T* dst, const T* src, std::vector<int> dims) {
     long len = dims[0] * ROUND_UP(dims[1], 4) * dims[2] * dims[3];
-    float32x4_t vzero = vdupq_n_f32(0);
+    Float4 vzero(0);
     for (int i = 0; i < len; i += 4) {
-        vst1q_f32(dst + i, vmaxq_f32(vld1q_f32(src + i), vzero));
+        Float4::save(dst + i, Float4::max(Float4::load(src + i), vzero));
     }
 }
 
-void arm_neon_relu_bfp16(bfp16_t* dst, const bfp16_t* src, std::vector<int> dims) {
-    long len = dims[0] * ROUND_UP(dims[1], 4) * dims[2] * dims[3];
-    float32x4_t vzero = vdupq_n_f32(0);
-    for (int i = 0; i < len; i += 4) {
-        arm_neon_save(dst + i, vmaxq_f32(arm_neon_load(src + i), vzero));
-    }
-}
 ```

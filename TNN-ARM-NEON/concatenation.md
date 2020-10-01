@@ -1,5 +1,5 @@
-# CNN
-
+# Concatenate
+Layer that concatenates a list of inputs.
 ```cpp
 /*
 directly copy in c4 mode, nc4hw4 format

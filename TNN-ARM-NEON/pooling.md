@@ -1,7 +1,15 @@
 # POOLING
+The pooling layer operates upon each feature map separately to create a new set of the same number of pooled feature maps.
+
+Pooling involves selecting a pooling operation, much like a filter to be applied to feature maps. The size of the pooling operation or filter is smaller than the size of the feature map; specifically, it is almost always 2×2 pixels applied with a stride of 2 pixels.
+
+This means that the pooling layer will always reduce the size of each feature map by a factor of 2, e.g. each dimension is halved, reducing the number of pixels or values in each feature map to one quarter the size. For example, a pooling layer applied to a feature map of 6×6 (36 pixels) will result in an output pooled feature map of 3×3 (9 pixels).
+
+The pooling operation is specified, rather than learned. Two common functions used in the pooling operation are:
+- Average Pooling: Calculate the average value for each patch on the feature map.
+- Maximum Pooling (or Max Pooling): Calculate the maximum value for each patch of the feature map.
 
 ```cpp
-
 /*
 max pooling corner func, left/right/top/bottom
 */

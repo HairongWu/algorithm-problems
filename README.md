@@ -46,13 +46,256 @@ A collection of algorithmic problems
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1598|[Crawler Log Folder](./leetcode/1598.md)| |Easy|
+|1592|[Rearrange Spaces Between Words](./leetcode/1592.md)||Easy|
+|1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1588.java) ||Easy|Array|
+|1583|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1583.java) ||Medium|Array|
+|1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1582.java) ||Easy|Array|
+|1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1576.java) |[:tv:](https://youtu.be/SJBDLYqrIsM)|Easy|String|
+|1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1574.java) ||Medium|Array, Binary Search|
+|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1572.java) ||Easy|Array|
+|1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1567.java) |[:tv:](https://youtu.be/bFer5PdsgpY)|Medium|Greedy|
+|1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1566.java) |[:tv:](https://youtu.be/aJAV_VgmjdE)|Easy|Array|
+|1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1561.java) |[:tv:](https://youtu.be/hPe9Z3TiUrA)|Medium|Sort|
+|1560|[Most Visited Sector in a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1560.java) ||Easy|Array|
+|1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1558.java) ||Medium|Greedy|
+|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1557.java) ||Medium|Graph|
+|1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1556.java) |[:tv:](https://youtu.be/re2BnNbg598)|Easy|String|
+|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1551.java) | [:tv:](https://youtu.be/A-i2sxmBqAA)|Medium|Math|
+|1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1550.java) | |Easy|Array|
+|1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1545.java) | |Medium|String|
+|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1544.java) | [:tv:](https://youtu.be/Q-ycCXbUOck)|Easy|String, Stack|
+|1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1541.java) | |Medium|String, Stack|
+|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1539.java) |[:tv:](https://youtu.be/p0P1JNHAB-c) |Easy|Array, HashTable|
+|1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1535.java) | [:tv:](https://youtu.be/v6On1TQfMTU) |Medium|Array|
+|1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1534.java) | |Easy|Array|
+|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1528.java) | |Easy|Sort|
+|1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1526.java) | |Hard|Segment Tree|
+|1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1525.java) | [:tv:](https://youtu.be/lRVpVUC5mQ4)|Medium|String, Bit Manipulation|
+|1524|[Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1524.java) | |Medium|Array, Math|
+|1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1523.java) | [:tv:](https://youtu.be/TkT-6WsmqY0)|Easy|Math|
+|1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1518.java) | |Easy|Greedy|
+|1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1514.java) | |Medium|Graph|
+|1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1512.java) | |Easy|Array, HashTable, Math|
+|1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1508.java) | |Medium|Array, Sort|
+|1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1507.java) | |Easy|String|
+|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1502.java) | |Easy|Array, Sort|
+|1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1496.java) | |Easy|String|
+|1493|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1493.java) | |Medium|Array|
+|1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1492.java) | |Medium|Math|
+|1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1491.java) | |Easy|Array, Sort|
+|1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1487.java) | |Medium|HashTable, String|
+|1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1486.java) | |Medium|Array, Bit Manipulation|
+|1481|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1481.java) | |Medium|Array, Sort|
+|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1480.java), [C++](../master/cpp/_1480.cpp)| |Easy|Array|
+|1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1476.java) | |Medium|Array|
+|1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1475.java) | |Easy|Array|
+|1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1471.java) | |Medium|Array, Sort|
+|1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1470.java), [C++](../master/cpp/_1470.cpp) | |Easy|Array|
+|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1469.java) | |Easy|Tree, DFS|
+|1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1466.java) | |Medium|Tree, DFS|
+|1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1464.java) | |Easy|Array|
+|1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1460.java) | |Easy|Array|
+|1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1457.java) | |Medium|Bit Manipulation, Tree, DFS|
+|1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1456.java) | |Medium|String, Sliding Window|
+|1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1455.java) | |Easy|String|
+|1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1452.java) | |Medium|String, Sort|
+|1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1451.java) | |Medium|String, Sort|
+|1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1450.java) | |Easy|Array|
+|1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1448.java) | |Medium|Tree, DFS|
+|1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1447.java) | |Medium|Math|
+|1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1446.java) | |Easy|String|
+|1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1441.java) | |Easy|Stack|
+|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1437.java) | |Medium|Array|
+|1436|[Destination City](https://leetcode.com/problems/destination-city/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1436.java) | |Easy|String|
+|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1432.java) | |Medium|String|
+|1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1431.java), [C++](../master/cpp/_1431.cpp) | |Easy|Array|
+|1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1428.java) | |Medium|Array|
+|1427|[Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1427.java) | |Easy|Array, Math|
+|1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1426.java) | |Easy|Array|
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1423.java) | |Medium|Array, DP, Sliding Window|
+|1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1422.java) | |Easy|String|
+|1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1418.java) | |Medium|HashTable|
+|1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1417.java) | |Easy|String|
+|1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1415.java) | |Medium|Backtracking|
+|1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1413.java) | |Easy|Array|
+|1410|[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1410.java) | |Medium|String, Stack|
+|1409|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1409.java) | |Medium|Array|
+|1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1408.java) | |Easy|String|
+|1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1403.java) | |Easy|Greedy, Sort|
+|1401|[Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1401.java) | |Medium|Geometry|
+|1400|[Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1400.java) | |Medium|Greedy|
+|1399|[Count Largest Group](https://leetcode.com/problems/count-largest-group/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1399.java) | |Easy|Array|
+|1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1396.java) | |Medium|Design|
+|1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1395.java) | |Medium|Array|
+|1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1394.java) | |Easy|Array|
+|1392|[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1392.java) | |Hard|String, Rolling Hash|
+|1390|[Four Divisors](https://leetcode.com/problems/four-divisors/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1390.java) | |Medium|Math|
+|1389|[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1389.java) | |Easy|Array|
+|1388|[Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1388.java) | |Hard|DP|
+|1387|[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1387.java) | |Medium|Sort, Graph|
+|1386|[Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1386.java) | |Medium|Array, Greedy|
+|1385|[Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1385.java) | |Easy|Array|
+|1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1382.java) | |Medium|Binary Search Tree|
+|1381|[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1381.java) | |Medium|Stack, Design|
+|1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1380.java) | |Easy|Array|
+|1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1379.java) | |Medium|Tree|
+|1377|[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1377.java) | |Hard|DFS, BFS|
+|1376|[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1376.java) | |Medium|DFS|
+|1375|[Bulb Switcher III](https://leetcode.com/problems/bulb-switcher-iii/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1375.java) | |Medium|Array|
+|1374|[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1374.java) | |Easy|String|
+|1373|[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1373.java) | |Hard|DP, BST|
+|1372|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1372.java) | |Hard|DP, Tree|
+|1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1371.java) | |Medium|String|
+|1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1370.java) | |Easy|String, Sort|
+|1367|[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1367.java) | |Medium|DP, Linked List, Tree|
+|1366|[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1366.java) | |Medium|Array, Sort|
+|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1365.java) | |Easy|Array, HashTable|
+|1362|[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1362.java) | |Medium|Math|
+|1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1361.java) | |Medium|Graph
+|1360|[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1360.java) | |Easy||
+|1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1358.java) | |Medium|String|
+|1357|[Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1357.java) | |Medium|Design|
+|1356|[Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1356.java) | |Easy|Sort, Bit Manipulation|
+|1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1354.java) | |Hard|Greedy|
+|1353|[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1353.java) | |Medium|Greedy, Sort, Segment Tree|
+|1352|[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1352.java) | |Medium|Array, Design|
+|1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1351.java) | |Easy|Array, Binary Search|
+|1349|[Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1349.java) | |Hard|Dynamic Programming|
+|1348|[Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1348.java) | |Medium|Design|
+|1347|[Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1347.java) | |Easy|String|
+|1346|[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1346.java) | |Easy|Array|
+|1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1345.java) | |Hard|BFS|
+|1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1344.java) | |Medium|Math|
+|1343|[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1343.java) | |Medium|Array|
+|1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1342.java) | |Easy|Bit Manipulation|
+|1341|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1341.java) | |Easy||
+|1339|[Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1339.java) | |Medium|DP, Tree|
+|1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1338.java) | |Medium||
+|1337|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1337.java) | |Easy|String|
+|1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1333.java) | |Medium||
+|1331|[Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1331.java) | |Easy||
+|1329|[Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1329.java) | |Medium||
+|1325|[Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1325.java) | |Medium|Tree|
+|1324|[Print Words Vertically](https://leetcode.com/problems/print-words-vertically/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1324.java) | |Medium|String|
+|1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1323.java) | |Easy|Math|
+|1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1317.java) | |Easy||
+|1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1315.java) | |Medium|Tree, DFS|
+|1314|[Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1314.java) | |Medium|Dynamic Programming|
+|1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1313.java) | |Easy|Array|
+|1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1305.java) | |Medium||
+|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1304.java) | |Easy||
+|1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1302.java) | |Medium||
+|1300|[Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1300.java) | |Medium||
+|1299|[Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1299.java) | |Easy||
+|1297|[Maximum Number of Occurrences of a Substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1297.java) | |Medium||
+|1296|[Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1296.java) | |Medium||
+|1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Java](../master/src/main/java/com/fishercoder/solutions/_1295.java)  [Javascript](../master/javascript/_1295.js)| [:tv:](https://youtu.be/HRp8mNJvLZ0) |Easy||
+|1291|[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1291.java) |  |Medium||
+|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1290.java) |  |Easy||
+|1289|[Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1289.java) |  |Hard|Dynamic Programming|
+|1287|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1287.java) | [:tv:](https://youtu.be/G74W8v2yVjY) |Easy||
+|1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1286.java) | |Medium|Backtracking, Design|
+|1282|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1282.java) |   [:tv:](https://www.youtube.com/watch?v=wGgcRCpSAa8)|Medium||
+|1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1281.java) |   |Easy||
+|1277|[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1277.java) |   |Medium||
+|1275|[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1275.java) |   |Easy|Array|
+|1273|[Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1273.java) |   |Medium|Dynamic Programming, DFS |
+|1271|[Hexspeak](https://leetcode.com/problems/hexspeak/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1271.java) |   |Easy||
+|1267|[Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1267.java) |   |Medium||
+|1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1266.java) |   |Easy||
+|1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse//)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1265.java) |   |Medium||
+|1261|[Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1261.java) ||Medium|Tree, HashTable|
+|1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1260.java) | [:tv:](https://www.youtube.com/watch?v=9hBcARSiU0s)|Easy||
+|1258|[Synonymous Sentences](https://leetcode.com/problems/synonymous-sentences/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1258.java) ||Medium|Backtracking|
+|1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1252.java) |  |Easy||
+|1237|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1237.java) | |Easy||
+|1243|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1243.java) |  [:tv:](https://www.youtube.com/watch?v=MQ2i4T1l-Gs)|Easy||
+|1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1232.java) | [:tv:](https://www.youtube.com/watch?v=_tfiTQNZCbs)  |Easy||
+|1228|[Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1228.java) |   |Easy||
+|1221|[Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1221.java) | |Easy|Greedy|
+|1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1219.java) |   |Medium|Backtracking|
+|1217|[Play with Chips](https://leetcode.com/problems/play-with-chips/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1217.java) |   |Easy|Array, Math, Greedy|
+|1214|[Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1214.java) |   |Medium| Binary Search Tree|
+|1213|[Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1213.java) |   [:tv:](https://www.youtube.com/watch?v=zceoOrHSHNQ)|Easy||
+|1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1207.java) ||Medium|Stack|
+
 |1207|[Unique Number of Occurrences](./leetcode/1207.md)| |Easy|
+|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1200.java) | [:tv:](https://www.youtube.com/watch?v=mH1aEjOEjcQ)|Easy||
+|1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1198.java) | [:tv:](https://www.youtube.com/watch?v=RMiofZrTmWo)|Easy||
+|1196|[How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1196.java) | [:tv:](https://www.youtube.com/watch?v=UelshlMQNJM)|Easy||
+|1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1190.java) | |Medium|Stack|
+|1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1189.java) |[:tv:](https://youtu.be/LGgMZC0vj5s) |Easy||
+|1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1185.java) | |Easy||
+|1184|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1184.java) | [:tv:](https://www.youtube.com/watch?v=RFq7yA5iyhI)|Easy||
+|1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1182.java) ||Medium|Binary Search|
+|1180|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1180.java) | |Easy|Math, String|
+|1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1176.java) | |Easy|Array, Sliding Window|
+|1175|[Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1175.java) | |Easy||
 |1170|[Compare Strings by Frequency of the Smallest Character](./leetcode/1170.md) | |Easy|
+|1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1165.java) | |Easy||
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1161.java) | |Medium|Graph|
+|1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1160.java)| |Easy||
+|1154|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1154.java) | |Easy||
+|1150|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1150.java)|[:tv:](https://youtu.be/-t2cdVs9cKk) |Easy||
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1137.java) | |Easy||
+|1134|[Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1134.java) |  [:tv:](https://www.youtube.com/watch?v=HTL7fd4HPf4)|Easy||
+|1133|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1133.java) | [:tv:](https://youtu.be/Fecpt1YZlCs)|Easy||
+|1128|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1128.java) |  [:tv:](https://www.youtube.com/watch?v=7EpEEHAAxyw)|Easy||
+|1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1122.java) | |Easy||
+|1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1170.java) | |Easy||
+|1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1119.java) |  [:tv:](https://www.youtube.com/watch?v=6KCBrIWEauw)|Easy||
+|1118|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1118.java) | |Easy||
+|1114|[Print in Order](https://leetcode.com/problems/print-in-order/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1114.java) | |Easy||
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1108.java) |  [:tv:](https://www.youtube.com/watch?v=FP0Na-pL0qk)|Easy||
+|1104|[Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1104.java) | |Medium|Math, Tree|
+|1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1103.java) | |Easy|Math|
+|1100|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1100.java) | |Medium|String, Sliding Window|
+|1099|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1099.java) |  [:tv:](https://www.youtube.com/watch?v=2Uq7p7HE0TI)|Easy||
+|1089|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1089.java) | |Easy||
+|1087|[Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1087.java) | |Medium|Backtracking|
+|1086|[High Five](https://leetcode.com/problems/high-five/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1086.java) | [:tv:](https://www.youtube.com/watch?v=3iqC5J4l0Cc)|Easy||
+|1085|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1085.java)| [:tv:](https://www.youtube.com/watch?v=GKYmPuHZpQg)|Easy||
+|1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1079.java)| |Medium||
+|1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1078.java) | |Easy||
 |1071|[Greatest Common Divisor of Strings](./leetcode/1071.md) | |Easy|
+|1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1071.java) |  |Easy||
+|1066|[Campus Bikes II](https://leetcode.com/problems/campus-bikes-ii/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1066.java) | |Medium|Backtracking, DP|
+|1065|[Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1065.java) | |Medium||
+|1062|[Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1062.java) | |Medium||
+|1057|[Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1057.java) | |Medium||Greedy, Sort
+|1056|[Confusing Number](https://leetcode.com/problems/confusing-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1056.java) | |Easy||
+|1055|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1055.java) |  |Easy||
+|1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1051.java) | |Easy||
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1047.java) | |Easy||
+|1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1046.java) |[:tv:](https://youtu.be/IfElFyaEV8s) |Easy||
+|1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1043.java) |  |Medium|DP|
+|1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1038.java) | |Medium|DFS, tree|
+|1037|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1037.java) | |Easy|Math|
+|1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1033.java) | |Easy|Math|
 |1030|[Matrix Cells in Distance Order](./leetcode/1030.md) | |Easy|
 |1029|[Two City Scheduling](./leetcode/1029.md) | |Easy|
 |1028|[Recover a Tree From Preorder Traversal](./leetcode/1028.md) | |Hard|
+|1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1025.java) | |Easy|
 |1024|[Video Stitching](./leetcode/1024.md) | |Medium|
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1022.java) | |Easy|
+|1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1021.java) | |Easy|
+|1020|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1020.java) | |Medium|Graph, DFS, BFS, recursion|
+|1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1019.java) | |Medium|Linked List, Stack|
+|1018|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1018.java) | |Easy|
+|1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1014.java) | |Medium|
+|1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1013.java) | |Easy|
+|1011|[Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1011.java) | |Medium|Binary Search|
+|1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1010.java) | |Easy|
+|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1009.java) | |Easy|
+|1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1008.java) | |Medium| Recursion
+|1005|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1005.java) | [:tv:](https://youtu.be/spiwTAuz1_4) |Easy|
+|1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1004.java) |  |Medium| Two Pointers, Sliding Window
+|1003|[Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1003.java) | |Medium|
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1002.java) |  |Easy|
+|999|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_999.java) | |Easy|
+|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_997.java) | |Easy| 
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_994.java) | |Easy| BFS
 |993|[Cousins in Binary Tree](./leetcode/993.md) | |Easy|
 |991|[Broken Calculator](./leetcode/991.md) | |Medium|
 |990|[Satisfiability of Equality Equations](./leetcode/990.md) | |Medium|
@@ -70,12 +313,23 @@ A collection of algorithmic problems
 |978|[Longest Turbulent Subarray](./leetcode/978.md) | |Medium|
 |977|[Squares of a Sorted Array](./leetcode/977.md) | |Easy|
 |976|[Largest Perimeter Triangle](./leetcode/976.md) | |Easy|
+|974|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_974.java) | |Medium| Array|
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_973.java) | |Easy| Math Sort|
 |971|[Flip Binary Tree To Match Preorder Traversal](./leetcode/971.md) | |Medium|
+|970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_970.java) | |Easy| Math
 |969|[Pancake Sorting](./leetcode/969.md) | |Medium|
+|966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_966.java) | |Medium| Hash Table, String
+|965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_965.java) | |Easy| DFS, recursion|
 |961|[N-Repeated element in size 2N Array](./leetcode/961.md) | |Easy|
 |958|[Check Completeness of a Binary Tree](./leetcode/958.md) | |Medium|
+|957|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_957.java) | |Medium|
+|954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_954.java) |  [:tv:](https://youtu.be/Q0WKzdpR74o)|Medium|
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_953.java)| |Easy|
 |951|[Flip Equivalent Binary Trees](./leetcode/951.md) | |Medium|
 |950|[Reveal Cards In Increasing Order](./leetcode/950.md) | |Medium|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_946.java) | |Medium|Stack
+|944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_944.java) | |Easy|
+|942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_942.java) | |Easy|
 |941|[Valid Mountain Array](./leetcode/941.md) | |Easy|
 |940|[Distinct Subsequences II](./leetcode/940.md)|41.50%|Hard|
 |939|[Minimum Area Rectangle](./leetcode/939.md)|52.00%|Medium|
@@ -1014,6 +1268,19 @@ A collection of algorithmic problems
 |3|[Longest Substring Without Repeating Characters](https://github.com/grandyang/LeetCode-All-In-One/issues/3)|20.60%|Medium|
 |2|[Add Two Numbers](https://github.com/grandyang/LeetCode-All-In-One/issues/2)|21.10%|Medium|
 |1|[Two Sum](./leetcode/1.md)|17.70%|Medium|
+
+## TNN ARM NEON
+TNN is a high-performance and lightweight inference framework for mobile devices. It provides lots of advanced features such as cross-platform, model-compression, and code-pruning. TNN, inspired by mainstream open-source industry frameworks, integrates and leverages Youtu Lab's Rapidnet, ncnn framework. It also combines the efforts of the deep-learning framework Oteam from all departments(PCG, TEG, IEG) to create an enterprise-level mobile inference engine.
+
+- [ARM NEON COMMON](./TNN-ARM-NEON/arm_neon_common.md)
+- [RELU](./TNN-ARM-NEON/relu.md)
+- [POOLING](./TNN-ARM-NEON/pooling.md)
+- [RESHAPE](./TNN-ARM-NEON/reshape.md)
+- [CONCATENATION](./TNN-ARM-NEON/concatenation.md)
+- [CONVOLUTION](./TNN-ARM-NEON/convolution.md)
+
+## Deep Into Python3.8.6 Source Code
+
 
 # Reference
 - https://www.cnblogs.com/grandyang/p/4606334.html
