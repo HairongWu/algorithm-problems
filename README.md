@@ -1269,20 +1269,10 @@ A collection of algorithmic problems
 |2|[Add Two Numbers](https://github.com/grandyang/LeetCode-All-In-One/issues/2)|21.10%|Medium|
 |1|[Two Sum](./leetcode/1.md)|17.70%|Medium|
 
-## TNN ARM NEON
-TNN is a high-performance and lightweight inference framework for mobile devices. It provides lots of advanced features such as cross-platform, model-compression, and code-pruning. TNN, inspired by mainstream open-source industry frameworks, integrates and leverages Youtu Lab's Rapidnet, ncnn framework. It also combines the efforts of the deep-learning framework Oteam from all departments(PCG, TEG, IEG) to create an enterprise-level mobile inference engine.
-
-- [ARM NEON COMMON](./TNN-ARM-NEON/arm_neon_common.md)
-- [RELU](./TNN-ARM-NEON/relu.md)
-- [POOLING](./TNN-ARM-NEON/pooling.md)
-- [RESHAPE](./TNN-ARM-NEON/reshape.md)
-- [CONCATENATION](./TNN-ARM-NEON/concatenation.md)
-- [CONVOLUTION](./TNN-ARM-NEON/convolution.md)
-
 ## Deep Into Python3.8.6 Source Code
 
 
 # Reference
 - https://www.cnblogs.com/grandyang/p/4606334.html
 - https://walkccc.github.io/CLRS/
-- https://github.com/Tencent/TNN
+- https://www.python.org/downloads/source/
