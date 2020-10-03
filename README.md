@@ -1270,7 +1270,7 @@ A collection of algorithmic problems
 |1|[Two Sum](./leetcode/1.md)|17.70%|Medium|
 
 ## Deep Into Python3.8.6 Source Code
-
+- [Python's malloc wrappers](./python/obmalloc.md)
 
 # Reference
 - https://www.cnblogs.com/grandyang/p/4606334.html
