@@ -48,74 +48,74 @@ A collection of algorithmic problems
 |---| ----- | -------- | ---------- |
 |1598|[Crawler Log Folder](./leetcode/1598.md)| |Easy|
 |1592|[Rearrange Spaces Between Words](./leetcode/1592.md)||Easy|
-|1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1588.java) ||Easy|Array|
-|1583|[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1583.java) ||Medium|Array|
-|1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1582.java) ||Easy|Array|
-|1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1576.java) |[:tv:](https://youtu.be/SJBDLYqrIsM)|Easy|String|
-|1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1574.java) ||Medium|Array, Binary Search|
-|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1572.java) ||Easy|Array|
-|1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1567.java) |[:tv:](https://youtu.be/bFer5PdsgpY)|Medium|Greedy|
-|1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1566.java) |[:tv:](https://youtu.be/aJAV_VgmjdE)|Easy|Array|
-|1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1561.java) |[:tv:](https://youtu.be/hPe9Z3TiUrA)|Medium|Sort|
-|1560|[Most Visited Sector in a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1560.java) ||Easy|Array|
-|1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1558.java) ||Medium|Greedy|
-|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1557.java) ||Medium|Graph|
-|1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1556.java) |[:tv:](https://youtu.be/re2BnNbg598)|Easy|String|
-|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1551.java) | [:tv:](https://youtu.be/A-i2sxmBqAA)|Medium|Math|
-|1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1550.java) | |Easy|Array|
-|1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1545.java) | |Medium|String|
-|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1544.java) | [:tv:](https://youtu.be/Q-ycCXbUOck)|Easy|String, Stack|
-|1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1541.java) | |Medium|String, Stack|
-|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1539.java) |[:tv:](https://youtu.be/p0P1JNHAB-c) |Easy|Array, HashTable|
-|1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1535.java) | [:tv:](https://youtu.be/v6On1TQfMTU) |Medium|Array|
-|1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1534.java) | |Easy|Array|
-|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1528.java) | |Easy|Sort|
-|1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1526.java) | |Hard|Segment Tree|
-|1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1525.java) | [:tv:](https://youtu.be/lRVpVUC5mQ4)|Medium|String, Bit Manipulation|
-|1524|[Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1524.java) | |Medium|Array, Math|
-|1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1523.java) | [:tv:](https://youtu.be/TkT-6WsmqY0)|Easy|Math|
-|1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1518.java) | |Easy|Greedy|
-|1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1514.java) | |Medium|Graph|
-|1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1512.java) | |Easy|Array, HashTable, Math|
-|1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1508.java) | |Medium|Array, Sort|
-|1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1507.java) | |Easy|String|
-|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1502.java) | |Easy|Array, Sort|
-|1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1496.java) | |Easy|String|
-|1493|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1493.java) | |Medium|Array|
-|1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1492.java) | |Medium|Math|
-|1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1491.java) | |Easy|Array, Sort|
-|1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1487.java) | |Medium|HashTable, String|
-|1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1486.java) | |Medium|Array, Bit Manipulation|
-|1481|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1481.java) | |Medium|Array, Sort|
-|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1480.java), [C++](../master/cpp/_1480.cpp)| |Easy|Array|
-|1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1476.java) | |Medium|Array|
-|1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1475.java) | |Easy|Array|
-|1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1471.java) | |Medium|Array, Sort|
-|1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1470.java), [C++](../master/cpp/_1470.cpp) | |Easy|Array|
-|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1469.java) | |Easy|Tree, DFS|
-|1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1466.java) | |Medium|Tree, DFS|
-|1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1464.java) | |Easy|Array|
-|1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1460.java) | |Easy|Array|
-|1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1457.java) | |Medium|Bit Manipulation, Tree, DFS|
-|1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1456.java) | |Medium|String, Sliding Window|
-|1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1455.java) | |Easy|String|
-|1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1452.java) | |Medium|String, Sort|
-|1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1451.java) | |Medium|String, Sort|
-|1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1450.java) | |Easy|Array|
-|1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1448.java) | |Medium|Tree, DFS|
-|1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1447.java) | |Medium|Math|
-|1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1446.java) | |Easy|String|
-|1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1441.java) | |Easy|Stack|
-|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1437.java) | |Medium|Array|
-|1436|[Destination City](https://leetcode.com/problems/destination-city/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1436.java) | |Easy|String|
-|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1432.java) | |Medium|String|
-|1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1431.java), [C++](../master/cpp/_1431.cpp) | |Easy|Array|
+|1588|[Sum of All Odd Length Subarrays](./leetcode/1588.md)||Easy|
+|1583|[Count Unhappy Friends](./leetcode/1583.md)||Medium|
+|1582|[Special Positions in a Binary Matrix](./leetcode/1582.md)|||Easy|
+|1576|[Replace All ?'s to Avoid Consecutive Repeating Characters](./leetcode/1576.md)||Easy|
+|1574|[Shortest Subarray to be Removed to Make Array Sorted](./leetcode/1574.md)||Medium|
+|1572|[Matrix Diagonal Sum](./leetcode/1572.md)||Easy|
+|1567|[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)| |Medium|Greedy|
+|1566|[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)||Easy|Array|
+|1561|[Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)||Medium|Sort|
+|1560|[Most Visited Sector in a Circular Track](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)||Easy|Array|
+|1558|[Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)||Medium|Greedy|
+|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)||Medium|Graph|
+|1556|[Thousand Separator](https://leetcode.com/problems/thousand-separator/)||Easy|String|
+|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)||Medium|Math|
+|1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)||Easy|Array|
+|1545|[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)||Medium|String|
+|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)||Easy|String, Stack|
+|1541|[Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)||Medium|String, Stack|
+|1539|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)||Easy|Array, HashTable|
+|1535|[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)||Medium|Array|
+|1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)||Easy|Array|
+|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)||Easy|Sort|
+|1526|[Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)||Hard|Segment Tree|
+|1525|[Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/)||Medium|String, Bit Manipulation|
+|1524|[Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)||Medium|Array, Math|
+|1523|[Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)||Easy|Math|
+|1518|[Water Bottles](https://leetcode.com/problems/water-bottles/)||Easy|Greedy|
+|1514|[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)||Medium|Graph|
+|1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)||Easy|Array, HashTable, Math|
+|1508|[Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)||Medium|Array, Sort|
+|1507|[Reformat Date](https://leetcode.com/problems/reformat-date/)||Easy|String|
+|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)||Easy|Array, Sort|
+|1496|[Path Crossing](https://leetcode.com/problems/path-crossing/)||Easy|String|
+|1493|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)||Medium|Array|
+|1492|[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)||Medium|Math|
+|1491|[Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)||Easy|Array, Sort|
+|1487|[Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)||Medium|HashTable, String|
+|1486|[XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)||Medium|Array, Bit Manipulation|
+|1481|[Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)||Medium|Array, Sort|
+|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)| |Easy|Array|
+|1476|[Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)||Medium|Array|
+|1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)||Easy|Array|
+|1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)||Medium|Array, Sort|
+|1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)||Easy|Array|
+|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)||Easy|Tree, DFS|
+|1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)||Medium|Tree, DFS|
+|1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)||Easy|Array|
+|1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)| |Easy|Array|
+|1457|[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)||Medium|Bit Manipulation, Tree, DFS|
+|1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)||Medium|String, Sliding Window|
+|1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)||Easy|String|
+|1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)||Medium|String, Sort|
+|1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)||Medium|String, Sort|
+|1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)||Easy|Array|
+|1448|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)||Medium|Tree, DFS|
+|1447|[Simplified Fractions](https://leetcode.com/problems/simplified-fractions/)||Medium|Math|
+|1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)||Easy|String|
+|1441|[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)||Easy|Stack|
+|1437|[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)||Medium|Array|
+|1436|[Destination City](https://leetcode.com/problems/destination-city/)||Easy|String|
+|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/)||Medium|String|
+|1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)||Easy|Array|
 |1428|[Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1428.java) | |Medium|Array|
-|1427|[Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1427.java) | |Easy|Array, Math|
-|1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1426.java) | |Easy|Array|
-|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1423.java) | |Medium|Array, DP, Sliding Window|
-|1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1422.java) | |Easy|String|
-|1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1418.java) | |Medium|HashTable|
+|1427|[Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)||Easy|Array, Math|
+|1426|[Counting Elements](https://leetcode.com/problems/counting-elements/)||Easy|Array|
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)| |Medium|Array, DP, Sliding Window|
+|1422|[Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)||Easy|String|
+|1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)| |Medium|HashTable|
 |1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1417.java) | |Easy|String|
 |1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1415.java) | |Medium|Backtracking|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)|[Solution](../master/src/main/java/com/fishercoder/solutions/_1413.java) | |Easy|Array|

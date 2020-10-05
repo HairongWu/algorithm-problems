@@ -27,9 +27,40 @@
 
 
 ```c
-PyAPI_FUNC(void *) PyMem_Malloc(size_t size);
-PyAPI_FUNC(void *) PyMem_Realloc(void *ptr, size_t new_size);
-PyAPI_FUNC(void) PyMem_Free(void *ptr);
+
+void *
+PyMem_Malloc(size_t size)
+{
+    /* see PyMem_RawMalloc() */
+    if (size > (size_t)PY_SSIZE_T_MAX)
+        return NULL;
+    return _PyMem.malloc(_PyMem.ctx, size);
+}
+
+void *
+PyMem_Calloc(size_t nelem, size_t elsize)
+{
+    /* see PyMem_RawMalloc() */
+    if (elsize != 0 && nelem > (size_t)PY_SSIZE_T_MAX / elsize)
+        return NULL;
+    return _PyMem.calloc(_PyMem.ctx, nelem, elsize);
+}
+
+void *
+PyMem_Realloc(void *ptr, size_t new_size)
+{
+    /* see PyMem_RawMalloc() */
+    if (new_size > (size_t)PY_SSIZE_T_MAX)
+        return NULL;
+    return _PyMem.realloc(_PyMem.ctx, ptr, new_size);
+}
+
+void
+PyMem_Free(void *ptr)
+{
+    _PyMem.free(_PyMem.ctx, ptr);
+}
+
 ```
 ## Functions
    Functions supplying platform-independent semantics for malloc/realloc/
