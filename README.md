@@ -44,7 +44,7 @@ A collection of algorithmic problems
 
 ## LeetCode
 
-| # | Title | Solution | Difficulty |
+| # | Title  | Difficulty |
 |---| ----- | -------- | ---------- |
 |1598|[Crawler Log Folder](./leetcode/1598.md)| |Easy|
 |1592|[Rearrange Spaces Between Words](./leetcode/1592.md)||Easy|
